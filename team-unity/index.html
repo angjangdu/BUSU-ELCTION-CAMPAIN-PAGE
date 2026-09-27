@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BUSU Election 2026 - Team Unity Campaign Website">
+    <title>BUSU Election 2026 | Team Unity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header" id="header">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <a href="#" class="nav__logo" aria-label="Team Unity Home">
+                <span class="nav__logo-icon" aria-hidden="true">✦</span>
+                <span class="nav__logo-text">TEAM UNITY</span>
+            </a>
+            <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+                <span class="nav__toggle-bar" aria-hidden="true"></span>
+                <span class="nav__toggle-bar" aria-hidden="true"></span>
+                <span class="nav__toggle-bar" aria-hidden="true"></span>
+            </button>
+            <ul class="nav__menu" id="navMenu" role="menubar">
+                <li role="none"><a href="#home" class="nav__link" role="menuitem">HOME</a></li>
+                <li role="none"><a href="#team" class="nav__link" role="menuitem">TEAM</a></li>
+                <li role="none"><a href="#candidates" class="nav__link" role="menuitem">CANDIDATES</a></li>
+                <li role="none"><a href="#vision" class="nav__link" role="menuitem">VISION</a></li>
+                <li role="none"><a href="#manifesto" class="nav__link" role="menuitem">MANIFESTO</a></li>
+                <li role="none"><a href="#updates" class="nav__link" role="menuitem">UPDATES</a></li>
+                <li role="none"><a href="#gallery" class="nav__link" role="menuitem">GALLERY</a></li>
+                <li role="none"><a href="#election-info" class="nav__link" role="menuitem">ELECTION INFO</a></li>
+                <li role="none"><a href="#contact" class="nav__link" role="menuitem">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero__background" aria-hidden="true">
+                <img src="images/campus.jpg" alt="" class="hero__bg-image" loading="eager">
+                <div class="hero__overlay"></div>
+            </div>
+            <div class="hero__content container">
+                <span class="hero__badge" aria-hidden="true">BUSU ELECTION 2026</span>
+                <h1 class="hero__title" id="hero-title">TEAM UNITY</h1>
+                <p class="hero__tagline">[CAMPAIGN TAGLINE]</p>
+                <div class="hero__actions">
+                    <a href="#team" class="btn btn--primary btn--large">MEET THE TEAM</a>
+                    <a href="#candidates" class="btn btn--outline btn--large">VIEW CANDIDATES</a>
+                </div>
+                <div class="hero__scroll" aria-hidden="true">
+                    <span class="hero__scroll-text">SCROLL</span>
+                    <svg class="hero__scroll-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14M19 12l-7 7-7-7"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-intro" id="team" aria-labelledby="team-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__label">TEAM UNITY</span>
+                    <h2 class="section-header__title" id="team-title">Our Team</h2>
+                </header>
+                <div class="team-intro__content">
+                    <p class="team-intro__text">[TEAM INTRODUCTION]</p>
+                </div>
+                <div class="values-grid">
+                    <article class="value-card">
+                        <div class="value-card__icon" aria-hidden="true">🤝</div>
+                        <h3 class="value-card__title">UNITY</h3>
+                        <p class="value-card__desc">[DESCRIPTION]</p>
+                    </article>
+                    <article class="value-card">
+                        <div class="value-card__icon" aria-hidden="true">🗣️</div>
+                        <h3 class="value-card__title">REPRESENTATION</h3>
+                        <p class="value-card__desc">[DESCRIPTION]</p>
+                    </article>
+                    <article class="value-card">
+                        <div class="value-card__icon" aria-hidden="true">🔍</div>
+                        <h3 class="value-card__title">TRANSPARENCY</h3>
+                        <p class="value-card__desc">[DESCRIPTION]</p>
+                    </article>
+                    <article class="value-card">
+                        <div class="value-card__icon" aria-hidden="true">🎓</div>
+                        <h3 class="value-card__title">STUDENT WELFARE</h3>
+                        <p class="value-card__desc">[DESCRIPTION]</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="candidates" id="candidates" aria-labelledby="candidates-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__label">CANDIDATES</span>
+                    <h2 class="section-header__title" id="candidates-title">Meet the Candidates</h2>
+                </header>
+                <div class="candidates-grid" id="candidatesGrid" role="list">
+                </div>
+            </div>
+        </section>
+
+        <section class="vision" id="vision" aria-labelledby="vision-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__label">OUR VISION</span>
+                    <h2 class="section-header__title" id="vision-title">Our Vision for BUSU</h2>
+                </header>
+                <div class="vision-grid" id="visionGrid">
+                </div>
+            </div>
+        </section>
+
+        <section class="manifesto" id="manifesto" aria-labelledby="manifesto-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__label">MANIFESTO</span>
+                    <h2 class="section-header__title" id="manifesto-title">Our Objectives</h2>
+                </header>
+                <div class="accordion" id="manifestoAccordion">
+                </div>
+            </div>
+        </section>
+
+        <section class="updates" id="updates" aria-labelledby="updates-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__label">CAMPAIGN UPDATES</span>
+                    <h2 class="section-header__title" id="updates-title">Latest Updates</h2>
+                </header>
+                <div class="updates-grid" id="updatesGrid">
+                </div>
+                <div class="updates__load-more">
+                    <button class="btn btn--primary" id="loadMoreUpdates" aria-expanded="false">LOAD MORE</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__label">GALLERY</span>
+                    <h2 class="section-header__title" id="gallery-title">Campaign Gallery</h2>
+                </header>
+                <div class="gallery-tabs" role="tablist" aria-label="Gallery categories">
+                    <button class="gallery-tab" role="tab" aria-selected="true" aria-controls="panel-campaign" id="tab-campaign">CAMPAIGN</button>
+                    <button class="gallery-tab" role="tab" aria-selected="false" aria-controls="panel-candidates" id="tab-candidates">CANDIDATES</button>
+                    <button class="gallery-tab" role="tab" aria-selected="false" aria-controls="panel-events" id="tab-events">EVENTS</button>
+                    <button class="gallery-tab" role="tab" aria-selected="false" aria-controls="panel-campus" id="tab-campus">CAMPUS</button>
+                </div>
+                <div class="gallery-panels">
+                    <div class="gallery-panel" role="tabpanel" id="panel-campaign" aria-labelledby="tab-campaign"></div>
+                    <div class="gallery-panel" role="tabpanel" id="panel-candidates" aria-labelledby="tab-candidates" hidden></div>
+                    <div class="gallery-panel" role="tabpanel" id="panel-events" aria-labelledby="tab-events" hidden></div>
+                    <div class="gallery-panel" role="tabpanel" id="panel-campus" aria-labelledby="tab-campus" hidden></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="election-info" id="election-info" aria-labelledby="election-info-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__label">ELECTION 2026</span>
+                    <h2 class="section-header__title" id="election-info-title">BUSU Election Information</h2>
+                </header>
+                <div class="election-grid">
+                    <article class="election-card">
+                        <h3 class="election-card__title">Election Date</h3>
+                        <p class="election-card__value">[DATE]</p>
+                    </article>
+                    <article class="election-card">
+                        <h3 class="election-card__title">Voting Time</h3>
+                        <p class="election-card__value">[TIME]</p>
+                    </article>
+                    <article class="election-card">
+                        <h3 class="election-card__title">Venue</h3>
+                        <p class="election-card__value">[VENUE]</p>
+                    </article>
+                    <article class="election-card">
+                        <h3 class="election-card__title">Voting Procedure</h3>
+                        <p class="election-card__value">[PROCEDURE]</p>
+                    </article>
+                </div>
+                <div class="election-notice">
+                    <h3 class="election-notice__title">Important Information</h3>
+                    <p class="election-notice__text">[NOTICE]</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__label">CONTACT</span>
+                    <h2 class="section-header__title" id="contact-title">Contact Team Unity</h2>
+                </header>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p class="contact-info__text">[CONTACT INTRODUCTION]</p>
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <span class="contact-item__label">Email:</span>
+                                <a href="mailto:[EMAIL]" class="contact-item__value">[EMAIL]</a>
+                            </li>
+                            <li class="contact-item">
+                                <span class="contact-item__label">Phone:</span>
+                                <a href="tel:[PHONE]" class="contact-item__value">[PHONE]</a>
+                            </li>
+                            <li class="contact-item">
+                                <span class="contact-item__label">Instagram:</span>
+                                <a href="[INSTAGRAM LINK]" class="contact-item__value" target="_blank" rel="noopener">[INSTAGRAM LINK]</a>
+                            </li>
+                            <li class="contact-item">
+                                <span class="contact-item__label">Facebook:</span>
+                                <a href="[FACEBOOK LINK]" class="contact-item__value" target="_blank" rel="noopener">[FACEBOOK LINK]</a>
+                            </li>
+                            <li class="contact-item">
+                                <span class="contact-item__label">WhatsApp:</span>
+                                <a href="https://wa.me/[WHATSAPP LINK]" class="contact-item__value" target="_blank" rel="noopener">[WHATSAPP LINK]</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">SEND MESSAGE</button>
+                        <p class="form-note" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__main">
+                <div class="footer__brand">
+                    <span class="footer__logo" aria-hidden="true">✦</span>
+                    <div class="footer__brand-text">
+                        <p class="footer__title">BUSU ELECTION 2026</p>
+                        <p class="footer__subtitle">TEAM UNITY</p>
+                    </div>
+                </div>
+                <nav class="footer__nav" aria-label="Footer navigation">
+                    <h3 class="footer__nav-title">Quick Links</h3>
+                    <ul class="footer__links">
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#team" class="footer__link">Team</a></li>
+                        <li><a href="#candidates" class="footer__link">Candidates</a></li>
+                        <li><a href="#vision" class="footer__link">Vision</a></li>
+                        <li><a href="#manifesto" class="footer__link">Manifesto</a></li>
+                        <li><a href="#updates" class="footer__link">Updates</a></li>
+                        <li><a href="#gallery" class="footer__link">Gallery</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© <span id="currentYear">2026</span> Team Unity</p>
+                <p class="footer__disclaimer">[DISCLAIMER TEXT]</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <div class="modal" id="candidateModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+        <div class="modal__overlay" tabindex="-1"></div>
+        <div class="modal__content">
+            <button class="modal__close" id="modalClose" aria-label="Close candidate profile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <div class="modal__body">
+                <div class="modal__image-wrapper">
+                    <img src="" alt="" id="modalImage" class="modal__image">
+                </div>
+                <div class="modal__info">
+                    <h2 id="modalName" class="modal__name"></h2>
+                    <p id="modalPosition" class="modal__position"></p>
+                    <div class="modal__sections">
+                        <section class="modal__section">
+                            <h3 class="modal__section-title">ABOUT</h3>
+                            <p id="modalAbout" class="modal__section-text">[Candidate biography]</p>
+                        </section>
+                        <section class="modal__section">
+                            <h3 class="modal__section-title">ACADEMIC INFORMATION</h3>
+                            <p id="modalAcademic" class="modal__section-text">[Information]</p>
+                        </section>
+                        <section class="modal__section">
+                            <h3 class="modal__section-title">EXPERIENCE</h3>
+                            <p id="modalExperience" class="modal__section-text">[Information]</p>
+                        </section>
+                        <section class="modal__section">
+                            <h3 class="modal__section-title">PRIORITIES</h3>
+                            <p id="modalPriorities" class="modal__section-text">[Information]</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" hidden>
+        <button class="lightbox__close" id="lightboxClose" aria-label="Close lightbox">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <line x1="18" y1="6" x2="6" y2="18"/>
+                <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+        </button>
+        <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="15 18 9 12 15 6"/>
+            </svg>
+        </button>
+        <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+            </svg>
+        </button>
+        <div class="lightbox__content">
+            <img src="" alt="" id="lightboxImage" class="lightbox__image">
+            <p class="lightbox__caption" id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
