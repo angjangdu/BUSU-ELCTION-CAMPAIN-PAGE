@@ -53,11 +53,40 @@ const candidates = [
         id: 'sunil',
         name: 'SUNIL DAIMARI',
         position: 'Secretary, Cultural Activities',
-        image: 'images/candidates/sunil.jpg',
-        about: '[Candidate biography]',
-        academic: '[Information]',
-        experience: '[Information]',
-        priorities: '[Information]'
+        team: 'Team Unity',
+        motto: '"Unity in Diversity"',
+        image: 'images/candidates/sunil-daimari.jpg',
+        about: '[Biography will be added later]',
+        vision: [
+            {
+                number: '01',
+                title: 'BU Cultural Workshop Series',
+                description: 'Organize hands-on cultural workshops called BU Cultural Workshop Series by inviting experienced artists, performers and practitioners to train students in Music, Dance, Song etc.'
+            },
+            {
+                number: '02',
+                title: 'Musical Instruments',
+                description: 'Provide new musical instruments to promote interested students in music.'
+            },
+            {
+                number: '03',
+                title: 'Monthly Cultural Events',
+                description: 'Organize monthly cultural events to showcase the diverse and rich cultural life of the University.'
+            },
+            {
+                number: '04',
+                title: 'Equal and Fair Opportunities',
+                description: 'Ensure equal and fair opportunities and make cultural activities open and accessible to all departments.'
+            },
+            {
+                number: '05',
+                title: 'BU Cultural Club',
+                description: 'Establish a University Cultural Club (BU Cultural Club) — "One Club, Many Culture, One Campus."'
+            }
+        ],
+        academic: '[Information will be added]',
+        experience: '[Information will be added]',
+        priorities: '[Information will be added]'
     },
     {
         id: 'mijing',
@@ -125,14 +154,76 @@ const visionItems = [
 ];
 
 const manifestoCategories = [
-    'Academic',
-    'Student Welfare',
-    'Sports',
-    'Culture',
-    'Literary Activities',
-    'Infrastructure',
-    'Technology',
-    'Representation'
+    {
+        title: 'Academic',
+        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+    {
+        title: 'Student Welfare',
+        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+    {
+        title: 'Sports',
+        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+    {
+        title: 'Culture',
+        content: `
+            <div class="manifesto-detail">
+                <article class="manifesto-item">
+                    <div class="manifesto-item__number">01</div>
+                    <div class="manifesto-item__content">
+                        <h4 class="manifesto-item__title">BU Cultural Workshop Series</h4>
+                        <p class="manifesto-item__desc">Organize hands-on cultural workshops called BU Cultural Workshop Series by inviting experienced artists, performers and practitioners to train students in Music, Dance, Song etc.</p>
+                    </div>
+                </article>
+                <article class="manifesto-item">
+                    <div class="manifesto-item__number">02</div>
+                    <div class="manifesto-item__content">
+                        <h4 class="manifesto-item__title">Musical Instruments</h4>
+                        <p class="manifesto-item__desc">Provide new musical instruments to promote interested students in music.</p>
+                    </div>
+                </article>
+                <article class="manifesto-item">
+                    <div class="manifesto-item__number">03</div>
+                    <div class="manifesto-item__content">
+                        <h4 class="manifesto-item__title">Monthly Cultural Events</h4>
+                        <p class="manifesto-item__desc">Organize monthly cultural events to showcase the diverse and rich cultural life of the University.</p>
+                    </div>
+                </article>
+                <article class="manifesto-item">
+                    <div class="manifesto-item__number">04</div>
+                    <div class="manifesto-item__content">
+                        <h4 class="manifesto-item__title">Equal and Fair Opportunities</h4>
+                        <p class="manifesto-item__desc">Ensure equal and fair opportunities and make cultural activities open and accessible to all departments.</p>
+                    </div>
+                </article>
+                <article class="manifesto-item">
+                    <div class="manifesto-item__number">05</div>
+                    <div class="manifesto-item__content">
+                        <h4 class="manifesto-item__title">BU Cultural Club</h4>
+                        <p class="manifesto-item__desc">Establish a University Cultural Club (BU Cultural Club) — "One Club, Many Culture, One Campus."</p>
+                    </div>
+                </article>
+            </div>
+        `
+    },
+    {
+        title: 'Literary Activities',
+        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+    {
+        title: 'Infrastructure',
+        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+    {
+        title: 'Technology',
+        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+    {
+        title: 'Representation',
+        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    }
 ];
 
 const updates = [
@@ -187,7 +278,7 @@ const galleryImages = {
         { src: 'images/candidates/biki.jpg', alt: 'Biki Mushahary', caption: 'Biki Mushahary - Asst. General Secretary' },
         { src: 'images/candidates/pungkha.jpg', alt: 'Pungkha Basumatary', caption: 'Pungkha Basumatary - Sec. Major Games' },
         { src: 'images/candidates/nikita.jpg', alt: 'Nikita Boro', caption: 'Nikita Boro - Sec. Minor Games' },
-        { src: 'images/candidates/sunil.jpg', alt: 'Sunil Daimari', caption: 'Sunil Daimari - Sec. Cultural Activities' },
+        { src: 'images/candidates/sunil-daimari.jpg', alt: 'Sunil Daimari - Secretary, Cultural Activities, Team Unity', caption: 'Sunil Daimari - Secretary, Cultural Activities' },
         { src: 'images/candidates/mijing.jpg', alt: 'Mijing Daimari', caption: 'Mijing Daimari - Literary Secretary' },
         { src: 'images/candidates/jwngkhwl.jpg', alt: 'Jwngkhwl Boro', caption: 'Jwngkhwl Boro - Sec. Boys\' Common Room' }
     ],
@@ -307,12 +398,13 @@ function initCandidateCards() {
     grid.innerHTML = candidates.map(candidate => `
         <article class="candidate-card" role="listitem">
             <div class="candidate-card__image">
-                <img src="${candidate.image}" alt="${candidate.name}" loading="lazy" class="candidate-card__img">
+                <img src="${candidate.image}" alt="${candidate.name} - ${candidate.position}, ${candidate.team || 'Team Unity'}" loading="lazy" class="candidate-card__img">
                 <div class="candidate-card__placeholder" aria-hidden="true">${candidate.name.charAt(0)}</div>
             </div>
             <div class="candidate-card__content">
                 <h3 class="candidate-card__name">${candidate.name}</h3>
                 <p class="candidate-card__position">${candidate.position}</p>
+                ${candidate.team ? `<p class="candidate-card__team">${candidate.team}</p>` : ''}
                 <button class="btn btn--primary candidate-card__btn" data-candidate="${candidate.id}" aria-label="View ${candidate.name}'s profile">View Profile</button>
             </div>
         </article>
@@ -328,6 +420,9 @@ function initCandidateCards() {
         img.addEventListener('error', function() {
             this.style.display = 'none';
             this.nextElementSibling.style.display = 'flex';
+        });
+        img.addEventListener('load', function() {
+            this.nextElementSibling.style.display = 'none';
         });
     });
 }
@@ -350,16 +445,16 @@ function initManifestoAccordion() {
     if (!container) return;
 
     container.innerHTML = manifestoCategories.map((category, index) => `
-        <article class="accordion__item" data-category="${category.toLowerCase().replace(/\s+/g, '-')}">
+        <article class="accordion__item" data-category="${category.title.toLowerCase().replace(/\s+/g, '-')}">
             <button class="accordion__header" aria-expanded="false" aria-controls="accordion-content-${index}">
-                <span class="accordion__title">${category}</span>
+                <span class="accordion__title">${category.title}</span>
                 <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                     <polyline points="6 9 12 15 18 9"/>
                 </svg>
             </button>
             <div class="accordion__content" id="accordion-content-${index}" role="region">
                 <div class="accordion__content-inner">
-                    <p>[OBJECTIVE WILL BE ADDED HERE]</p>
+                    ${category.content}
                 </div>
             </div>
         </article>
@@ -497,19 +592,41 @@ function openCandidateModal(candidateId) {
     const modalImage = document.getElementById('modalImage');
     const modalName = document.getElementById('modalName');
     const modalPosition = document.getElementById('modalPosition');
+    const modalTeam = document.getElementById('modalTeam');
+    const modalMotto = document.getElementById('modalMotto');
     const modalAbout = document.getElementById('modalAbout');
     const modalAcademic = document.getElementById('modalAcademic');
     const modalExperience = document.getElementById('modalExperience');
     const modalPriorities = document.getElementById('modalPriorities');
+    const modalVisionSection = document.getElementById('modalVisionSection');
+    const modalVision = document.getElementById('modalVision');
 
     modalImage.src = candidate.image;
-    modalImage.alt = candidate.name;
+    modalImage.alt = `${candidate.name} - ${candidate.position}, ${candidate.team || 'Team Unity'}`;
     modalName.textContent = candidate.name;
     modalPosition.textContent = candidate.position;
+    modalTeam.textContent = candidate.team || 'Team Unity';
+    modalMotto.textContent = candidate.motto || '';
     modalAbout.textContent = candidate.about;
     modalAcademic.textContent = candidate.academic;
     modalExperience.textContent = candidate.experience;
     modalPriorities.textContent = candidate.priorities;
+
+    if (candidate.vision && candidate.vision.length > 0) {
+        modalVisionSection.hidden = false;
+        modalVision.innerHTML = candidate.vision.map(item => `
+            <div class="modal__vision-item">
+                <span class="modal__vision-number">${item.number}</span>
+                <div class="modal__vision-content">
+                    <h4 class="modal__vision-title">${item.title}</h4>
+                    <p class="modal__vision-desc">${item.description}</p>
+                </div>
+            </div>
+        `).join('');
+    } else {
+        modalVisionSection.hidden = true;
+        modalVision.innerHTML = '';
+    }
 
     modal.hidden = false;
     document.body.style.overflow = 'hidden';

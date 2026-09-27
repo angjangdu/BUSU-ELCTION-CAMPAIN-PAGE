@@ -16,7 +16,7 @@ team-unity/
 │   │   ├── biki.jpg
 │   │   ├── pungkha.jpg
 │   │   ├── nikita.jpg
-│   │   ├── sunil.jpg
+│   │   ├── sunil-daimari.jpg
 │   │   ├── mijing.jpg
 │   │   └── jwngkhwl.jpg
 │   └── gallery/

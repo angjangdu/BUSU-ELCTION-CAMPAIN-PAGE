@@ -676,6 +676,52 @@ ul {
     line-height: 1.7;
 }
 
+.manifesto-detail {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.manifesto-item {
+    display: flex;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    background: var(--secondary-muted);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    transition: all var(--transition-fast);
+}
+
+.manifesto-item:hover {
+    border-color: var(--accent);
+    transform: translateX(4px);
+}
+
+.manifesto-item__number {
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    color: var(--accent);
+    flex-shrink: 0;
+    min-width: 40px;
+}
+
+.manifesto-item__content {
+    flex: 1;
+}
+
+.manifesto-item__title {
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: var(--space-xs);
+}
+
+.manifesto-item__desc {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
 .updates {
     padding: var(--space-3xl) 0;
     background: var(--secondary-muted);
@@ -1262,6 +1308,20 @@ ul {
     color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    margin-bottom: var(--space-sm);
+}
+
+.modal__team {
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    color: var(--primary);
+    margin-bottom: var(--space-xs);
+}
+
+.modal__motto {
+    font-size: var(--font-size-base);
+    font-style: italic;
+    color: var(--text-secondary);
     margin-bottom: var(--space-xl);
     padding-bottom: var(--space-md);
     border-bottom: 2px solid var(--border-color);
@@ -1271,6 +1331,55 @@ ul {
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
+}
+
+.modal__vision-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.modal__vision-item {
+    display: flex;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    background: var(--secondary-muted);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+}
+
+.modal__vision-number {
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    color: var(--accent);
+    flex-shrink: 0;
+    min-width: 40px;
+}
+
+.modal__vision-content {
+    flex: 1;
+}
+
+.modal__vision-title {
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: var(--space-xs);
+}
+
+.modal__vision-desc {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.candidate-card__team {
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: var(--space-md);
 }
 
 .modal__section-title {
