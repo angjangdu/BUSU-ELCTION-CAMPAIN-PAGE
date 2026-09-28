@@ -239,9 +239,16 @@ ul {
     letter-spacing: -0.01em;
 }
 
-.nav__logo-icon {
-    color: var(--accent);
-    font-size: var(--font-size-xl);
+.nav__logo-image {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .nav__logo-image {
+        height: 46px;
+    }
 }
 
 .nav__toggle {
@@ -1090,9 +1097,10 @@ ul {
     gap: var(--space-md);
 }
 
-.footer__logo {
-    font-size: var(--font-size-3xl);
-    color: var(--accent);
+.footer__logo-image {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
 }
 
 .footer__title {
