@@ -155,19 +155,28 @@ const visionItems = [
 
 const manifestoCategories = [
     {
-        title: 'Academic',
+        title: 'President',
+        content: '<p>[COMING SOON]</p>'
+    },
+    {
+        title: 'GENERAL SECRETARY',
         content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
     },
     {
-        title: 'Student Welfare',
+        title: 'ASSISTANT GENERAL SECRETARY',
+        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+    
+    {
+        title: 'SECRETARY OF MAJOR GAMES',
+        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+     {
+        title: 'SECRETARY OF MINOR GAMES',
         content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
     },
     {
-        title: 'Sports',
-        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
-    },
-    {
-        title: 'Culture',
+        title: 'SECRETARY OF Culture',
         content: `
             <div class="manifesto-detail">
                 <article class="manifesto-item">
@@ -209,19 +218,11 @@ const manifestoCategories = [
         `
     },
     {
-        title: 'Literary Activities',
+        title: ' SECRETARY OF Literary ',
         content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
     },
     {
-        title: 'Infrastructure',
-        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
-    },
-    {
-        title: 'Technology',
-        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
-    },
-    {
-        title: 'Representation',
+        title: 'SECRETARY OF BOYS Common Room',
         content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
     }
 ];
