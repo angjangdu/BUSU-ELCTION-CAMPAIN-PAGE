@@ -3,152 +3,202 @@ const candidates = [
         id: 'samaina',
         name: 'SAMAINA KHAKLARY',
         position: 'President',
-        image: 'images/candidates/samaina.jpg',
-        about: '[Candidate biography]',
-        academic: '[Information]',
-        experience: '[Information]',
-        priorities: '[Information]'
+        image: 'images/candidates/samaina-khaklary.jpg',
+        achievements: [
+            'Former Assistant General Secretary of BOSLIS, Kokrajhar Government College, Kokrajhar.',
+            'Vice President of BOSLIS, Bodoland University.'
+        ],
+        manifesto: [
+            'A proper student grievances cell.',
+            'Academic Improvement: Extension of library time during examination; More Xerox facilities in each department and hostels; Providing books for UG and PG students in library; Timely results declaration; Lab facilities; Inclusion of more departments.',
+            'Clean campus and drinking water facilities both in auditorium and administrative.',
+            'More cultural and sports events.',
+            'Addressing bus facilities.',
+            'Providing facilities for PWD students.',
+            'High speed Wi-Fi facilities across campus.',
+            'More placement, career counselling and internship help.',
+            'Proper functioning of women cell, placement cell, startup cell, entrepreneurship.',
+            'Improvement of medical facilities.',
+            'Provision of sanitary pads in each department and girls\' hostels.',
+            'Installation of street lights (New Deborgaon) and speed breakers in-front of the University gate.'
+        ]
     },
     {
         id: 'amrit',
         name: 'AMRIT BORO',
         position: 'General Secretary',
-        image: 'images/candidates/amrit.jpg',
-        about: '[Candidate biography]',
-        academic: '[Information]',
-        experience: '[Information]',
-        priorities: '[Information]'
+        image: 'images/candidates/amrit-boro.jpg',
+        achievements: [
+            'Served as Secretary of Minor Games & Sports, BUSU (2025–2026).',
+            'Secured 3rd Position in Wushu at the District Level competition organized by Udalguri District Wushu Association, 2017.'
+        ],
+        manifesto: [
+            'Provision of drinking water facilities in the auditorium hall.',
+            'Separate washrooms and toilets for male and female in the library.',
+            'Installation of two more canteens on campus (including veg canteen).',
+            'Organizing academic-related exhibitions in the University, like career counselling programmes.',
+            'Installation of CCTV camera in-front of the University gate.',
+            'Extension of car parking areas in various departments.',
+            'Installation of digital boards in the required classrooms.',
+            'Installation of digital notice board & a students\' grievance box in the administrative building.',
+            'Installation of ACs in labs and classrooms in the required departments.',
+            'Separate office and training facilities for NCC Cadets.',
+            'Extension and improvement of transport facilities for students in various areas.',
+            'Addressing academic-related issues of students in every section.'
+        ]
     },
     {
         id: 'biki',
         name: 'BIKI MUSHAHARY',
         position: 'Assistant General Secretary',
-        image: 'images/candidates/biki.jpg',
-        about: '[Candidate biography]',
-        academic: '[Information]',
-        experience: '[Information]',
-        priorities: '[Information]'
+        image: 'images/candidates/biki-mushahary.jpg',
+        achievements: [
+            'Former General Secretary Zamduar College, Saraibil, 2024–25.',
+            'Former General Secretary Zamduar College, Saraibil, 2025–26.',
+            'NSS Volunteer at Zamduar College, Saraibil, 2024–25.',
+            'NSS Volunteer at Zamduar College, Saraibil, 2025–26.'
+        ],
+        manifesto: [
+            'Improving Wi-Fi connectivity in every department for better academic and research work.',
+            'Providing Wi-Fi facilities for both boys and girls hostel.',
+            'Providing AC facilities in required departments to create a more comfortable learning environment.',
+            'Improving laboratory facilities with better equipments and necessary resources for students.',
+            'Working for better infrastructure, safety, cleanliness, and basic facilities across the university.',
+            'Ensuring equality and equal opportunities for every student in university activities and decision-making.'
+        ]
     },
     {
         id: 'pungkha',
         name: 'PUNGKHA BASUMATARY',
         position: 'Secretary, Major Games',
-        image: 'images/candidates/pungkha.jpg',
-        about: '[Candidate biography]',
-        academic: '[Information]',
-        experience: '[Information]',
-        priorities: '[Information]'
+        image: 'images/candidates/pungkha-basumatary.jpg',
+        achievements: [
+            'Former Assistant General Secretary of BOSLIS, Kokrajhar University (2023–2024).',
+            'Participated Inter-College football tournament Under Kokrajhar University 2023, organised by Reliance foundation.',
+            'Participated under-18 inter-college football tournament Under Kokrajhar University (2019), organised by Reliance foundation.',
+            'Former monitor at Satish Chandra Basumatary Boys\' Hostel, Kokrajhar University (2023–2024).'
+        ],
+        manifesto: [
+            'Equal access to sports for all girls and boys.',
+            'Fair and transparency selection of players for tournaments.',
+            'Provision of changing rooms and washrooms in the playground.',
+            'Organize and participate Inter-College cricket & football tournament.',
+            'Maintaining cleanliness of playground.',
+            'Providing seating areas in the university playground.'
+        ]
     },
     {
         id: 'nikita',
         name: 'NIKITA BORO',
         position: 'Secretary, Minor Games',
-        image: 'images/candidates/nikita.jpg',
-        about: '[Candidate biography]',
-        academic: '[Information]',
-        experience: '[Information]',
-        priorities: '[Information]'
+        image: 'images/candidates/nikita-boro.jpg',
+        achievements: [
+            '1st Prize in 100m, 200m, 400m race in varsity week of Bodoland University, 2026.',
+            'Participated in half marathon organised by NCC.',
+            'Participated in Inter College Competition of Kabaddi in Bijni College.',
+            'National Sports Day Kabaddi Winner 2026.'
+        ],
+        manifesto: [
+            'Installation of a new badminton court near the girls\' hostel.',
+            'Formation of a University Kabaddi team to represent Bodoland University in inter-University Competition.',
+            'Installation of an additional throwball court within the University campus.',
+            'Improvement of water drainage facilities around the basketball court to ensure proper use of the court, especially during the rainy season.',
+            'Regular departmental sports competitions every month, including kabaddi, basketball and badminton to encourage greater participation among students.',
+            'Repair and upgrade University gym equipment and facilities for a better workout environment.'
+        ]
     },
     {
         id: 'sunil',
         name: 'SUNIL DAIMARI',
         position: 'Secretary, Cultural Activities',
-        team: 'Team Unity',
-        motto: '"Unity in Diversity"',
         image: 'images/candidates/sunil-daimari.jpg',
-        about: '[Biography will be added later]',
-        vision: [
-            {
-                number: '01',
-                title: 'BU Cultural Workshop Series',
-                description: 'Organize hands-on cultural workshops called BU Cultural Workshop Series by inviting experienced artists, performers and practitioners to train students in Music, Dance, Song etc.'
-            },
-            {
-                number: '02',
-                title: 'Musical Instruments',
-                description: 'Provide new musical instruments to promote interested students in music.'
-            },
-            {
-                number: '03',
-                title: 'Monthly Cultural Events',
-                description: 'Organize monthly cultural events to showcase the diverse and rich cultural life of the University.'
-            },
-            {
-                number: '04',
-                title: 'Equal and Fair Opportunities',
-                description: 'Ensure equal and fair opportunities and make cultural activities open and accessible to all departments.'
-            },
-            {
-                number: '05',
-                title: 'BU Cultural Club',
-                description: 'Establish a University Cultural Club (BU Cultural Club) — "One Club, Many Culture, One Campus."'
-            }
-        ],
-        academic: '[Information will be added]',
-        experience: '[Information will be added]',
-        priorities: '[Information will be added]'
+        achievements: [],
+        manifesto: [
+            'Organize hands-on cultural workshops called BU Cultural Workshop Series by inviting experienced artists, performers and practitioners to train students in Music, Dance, Song etc.',
+            'Provide new Musical instruments to promote interested students in music.',
+            'Provision of permanent Musical instruments.',
+            'Cultural workshop will be extended for 15 days.',
+            'Equal and fair opportunities, and make cultural activities open and accessible to all departments.',
+            'Organize frequent cultural events to showcase the diverse and rich culture of our university.',
+            'Bringing musical events.',
+            'All traditional dress will be provided to perform at official events.'
+        ]
     },
     {
         id: 'mijing',
         name: 'MIJING DAIMARI',
         position: 'Literary Secretary',
-        image: 'images/candidates/mijing.jpg',
-        about: '[Candidate biography]',
-        academic: '[Information]',
-        experience: '[Information]',
-        priorities: '[Information]'
+        image: 'images/candidates/mijing-daimari.jpg',
+        achievements: [
+            'Former General Secretary Rowta Degree College Students\' Union, 2023–2024.',
+            'Former Cultural Secretary Rowta Degree College Students\' Union, 2022–2023.'
+        ],
+        manifesto: [
+            'Organizing annual literary festival.',
+            'Open mic, poetry sessions & workshops - a stage for poets, writers and speakers.',
+            'Installation of a new big annual wall magazine.',
+            'Implementation of ISSN tag in our Bodoland University annual magazine - Horizon.',
+            'Equal opportunity for every department, every students.'
+        ]
     },
     {
         id: 'jwngkhwl',
         name: 'JWNGKHWL BORO',
         position: 'Secretary, Boys\' Common Room',
-        image: 'images/candidates/jwngkhwl.jpg',
-        about: '[Candidate biography]',
-        academic: '[Information]',
-        experience: '[Information]',
-        priorities: '[Information]'
+        image: 'images/candidates/jwngkhwl-boro.jpg',
+        achievements: [
+            'Former President of BOSLIS Darrang College Tezpur, 2022–23.',
+            'Former General Secretary of BOSLIS Darrang College Tezpur, 2023–24.'
+        ],
+        manifesto: [
+            'Better and well-maintained Boys\' Common Room Building.',
+            'Providing indoor games materials such as carrom, chess, ludo and table tennis.',
+            'Proper maintenance and cleanliness.',
+            'Providing books, newspapers, and materials related to current affairs.',
+            'Improving the common room facilities for study, recreation and discussion.'
+        ]
     }
 ];
 
 const visionItems = [
     {
         title: 'ACADEMIC DEVELOPMENT',
-        description: '[Description]',
+        description: 'Enhancing academic facilities, library resources, and timely results for student success.',
         icon: '📚'
     },
     {
         title: 'STUDENT WELFARE',
-        description: '[Description]',
+        description: 'Improving medical facilities, drinking water, sanitation, and support for PWD students.',
         icon: '🎓'
     },
     {
         title: 'SPORTS',
-        description: '[Description]',
+        description: 'Equal access to sports, fair selections, better infrastructure, and regular competitions.',
         icon: '⚽'
     },
     {
         title: 'CULTURAL ACTIVITIES',
-        description: '[Description]',
+        description: 'Workshops, instruments, events, and equal opportunities to celebrate diversity.',
         icon: '🎭'
     },
     {
         title: 'LITERARY ACTIVITIES',
-        description: '[Description]',
+        description: 'Annual literary festival, open mic sessions, wall magazine, and ISSN for Horizon.',
         icon: '✍️'
     },
     {
         title: 'CAMPUS INFRASTRUCTURE',
-        description: '[Description]',
+        description: 'Clean campus, parking, canteens, CCTV, ACs, and improved transport facilities.',
         icon: '🏗️'
     },
     {
         title: 'TECHNOLOGY',
-        description: '[Description]',
+        description: 'High-speed Wi-Fi across campus, digital boards, and digital notice boards.',
         icon: '💻'
     },
     {
         title: 'STUDENT REPRESENTATION',
-        description: '[Description]',
+        description: 'Grievance cells, student voice in decision-making, and transparent governance.',
         icon: '🗣️'
     }
 ];
@@ -156,74 +206,35 @@ const visionItems = [
 const manifestoCategories = [
     {
         title: 'President',
-        content: '<p>[COMING SOON]</p>'
+        content: candidates.find(c => c.id === 'samaina')?.manifesto.map(item => `<p>${item}</p>`).join('') || '<p>[COMING SOON]</p>'
     },
     {
-        title: 'GENERAL SECRETARY',
-        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+        title: 'General Secretary',
+        content: candidates.find(c => c.id === 'amrit')?.manifesto.map(item => `<p>${item}</p>`).join('') || '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
     },
     {
-        title: 'ASSISTANT GENERAL SECRETARY',
-        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
-    },
-    
-    {
-        title: 'SECRETARY OF MAJOR GAMES',
-        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
-    },
-     {
-        title: 'SECRETARY OF MINOR GAMES',
-        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+        title: 'Assistant General Secretary',
+        content: candidates.find(c => c.id === 'biki')?.manifesto.map(item => `<p>${item}</p>`).join('') || '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
     },
     {
-        title: 'SECRETARY OF Culture',
-        content: `
-            <div class="manifesto-detail">
-                <article class="manifesto-item">
-                    <div class="manifesto-item__number">01</div>
-                    <div class="manifesto-item__content">
-                        <h4 class="manifesto-item__title">BU Cultural Workshop Series</h4>
-                        <p class="manifesto-item__desc">Organize hands-on cultural workshops called BU Cultural Workshop Series by inviting experienced artists, performers and practitioners to train students in Music, Dance, Song etc.</p>
-                    </div>
-                </article>
-                <article class="manifesto-item">
-                    <div class="manifesto-item__number">02</div>
-                    <div class="manifesto-item__content">
-                        <h4 class="manifesto-item__title">Musical Instruments</h4>
-                        <p class="manifesto-item__desc">Provide new musical instruments to promote interested students in music.</p>
-                    </div>
-                </article>
-                <article class="manifesto-item">
-                    <div class="manifesto-item__number">03</div>
-                    <div class="manifesto-item__content">
-                        <h4 class="manifesto-item__title">Monthly Cultural Events</h4>
-                        <p class="manifesto-item__desc">Organize monthly cultural events to showcase the diverse and rich cultural life of the University.</p>
-                    </div>
-                </article>
-                <article class="manifesto-item">
-                    <div class="manifesto-item__number">04</div>
-                    <div class="manifesto-item__content">
-                        <h4 class="manifesto-item__title">Equal and Fair Opportunities</h4>
-                        <p class="manifesto-item__desc">Ensure equal and fair opportunities and make cultural activities open and accessible to all departments.</p>
-                    </div>
-                </article>
-                <article class="manifesto-item">
-                    <div class="manifesto-item__number">05</div>
-                    <div class="manifesto-item__content">
-                        <h4 class="manifesto-item__title">BU Cultural Club</h4>
-                        <p class="manifesto-item__desc">Establish a University Cultural Club (BU Cultural Club) — "One Club, Many Culture, One Campus."</p>
-                    </div>
-                </article>
-            </div>
-        `
+        title: 'Secretary, Major Games',
+        content: candidates.find(c => c.id === 'pungkha')?.manifesto.map(item => `<p>${item}</p>`).join('') || '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
     },
     {
-        title: ' SECRETARY OF Literary ',
-        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+        title: 'Secretary, Minor Games',
+        content: candidates.find(c => c.id === 'nikita')?.manifesto.map(item => `<p>${item}</p>`).join('') || '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
     },
     {
-        title: 'SECRETARY OF BOYS Common Room',
-        content: '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+        title: 'Secretary, Cultural Activities',
+        content: candidates.find(c => c.id === 'sunil')?.manifesto.map(item => `<p>${item}</p>`).join('') || '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+    {
+        title: 'Literary Secretary',
+        content: candidates.find(c => c.id === 'mijing')?.manifesto.map(item => `<p>${item}</p>`).join('') || '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
+    },
+    {
+        title: 'Secretary, Boys\' Common Room',
+        content: candidates.find(c => c.id === 'jwngkhwl')?.manifesto.map(item => `<p>${item}</p>`).join('') || '<p>[OBJECTIVE WILL BE ADDED HERE]</p>'
     }
 ];
 
@@ -274,14 +285,14 @@ const galleryImages = {
         { src: 'images/gallery/campaign4.jpg', alt: 'Campaign poster', caption: 'Campaign Materials' }
     ],
     candidates: [
-        { src: 'images/candidates/samaina.jpg', alt: 'Samaina Khaklary', caption: 'Samaina Khaklary - President' },
-        { src: 'images/candidates/amrit.jpg', alt: 'Amrit Boro', caption: 'Amrit Boro - General Secretary' },
-        { src: 'images/candidates/biki.jpg', alt: 'Biki Mushahary', caption: 'Biki Mushahary - Asst. General Secretary' },
-        { src: 'images/candidates/pungkha.jpg', alt: 'Pungkha Basumatary', caption: 'Pungkha Basumatary - Sec. Major Games' },
-        { src: 'images/candidates/nikita.jpg', alt: 'Nikita Boro', caption: 'Nikita Boro - Sec. Minor Games' },
-        { src: 'images/candidates/sunil-daimari.jpg', alt: 'Sunil Daimari - Secretary, Cultural Activities, Team Unity', caption: 'Sunil Daimari - Secretary, Cultural Activities' },
-        { src: 'images/candidates/mijing.jpg', alt: 'Mijing Daimari', caption: 'Mijing Daimari - Literary Secretary' },
-        { src: 'images/candidates/jwngkhwl.jpg', alt: 'Jwngkhwl Boro', caption: 'Jwngkhwl Boro - Sec. Boys\' Common Room' }
+        { src: 'images/candidates/samaina-khaklary.jpg', alt: 'Samaina Khaklary', caption: 'Samaina Khaklary - President' },
+        { src: 'images/candidates/amrit-boro.jpg', alt: 'Amrit Boro', caption: 'Amrit Boro - General Secretary' },
+        { src: 'images/candidates/biki-mushahary.jpg', alt: 'Biki Mushahary', caption: 'Biki Mushahary - Asst. General Secretary' },
+        { src: 'images/candidates/pungkha-basumatary.jpg', alt: 'Pungkha Basumatary', caption: 'Pungkha Basumatary - Sec. Major Games' },
+        { src: 'images/candidates/nikita-boro.jpg', alt: 'Nikita Boro', caption: 'Nikita Boro - Sec. Minor Games' },
+        { src: 'images/candidates/sunil-daimari.jpg', alt: 'Sunil Daimari', caption: 'Sunil Daimari - Sec. Cultural Activities' },
+        { src: 'images/candidates/mijing-daimari.jpg', alt: 'Mijing Daimari', caption: 'Mijing Daimari - Literary Secretary' },
+        { src: 'images/candidates/jwngkhwl-boro.jpg', alt: 'Jwngkhwl Boro', caption: 'Jwngkhwl Boro - Sec. Boys\' Common Room' }
     ],
     events: [
         { src: 'images/gallery/event1.jpg', alt: 'Event 1', caption: 'Campaign Launch Event' },
@@ -399,13 +410,12 @@ function initCandidateCards() {
     grid.innerHTML = candidates.map(candidate => `
         <article class="candidate-card" role="listitem">
             <div class="candidate-card__image">
-                <img src="${candidate.image}" alt="${candidate.name} - ${candidate.position}, ${candidate.team || 'Team Unity'}" loading="lazy" class="candidate-card__img">
+                <img src="${candidate.image}" alt="${candidate.name} \u2014 ${candidate.position}" loading="lazy" class="candidate-card__img">
                 <div class="candidate-card__placeholder" aria-hidden="true">${candidate.name.charAt(0)}</div>
             </div>
             <div class="candidate-card__content">
                 <h3 class="candidate-card__name">${candidate.name}</h3>
                 <p class="candidate-card__position">${candidate.position}</p>
-                ${candidate.team ? `<p class="candidate-card__team">${candidate.team}</p>` : ''}
                 <button class="btn btn--primary candidate-card__btn" data-candidate="${candidate.id}" aria-label="View ${candidate.name}'s profile">View Profile</button>
             </div>
         </article>
@@ -593,41 +603,24 @@ function openCandidateModal(candidateId) {
     const modalImage = document.getElementById('modalImage');
     const modalName = document.getElementById('modalName');
     const modalPosition = document.getElementById('modalPosition');
-    const modalTeam = document.getElementById('modalTeam');
-    const modalMotto = document.getElementById('modalMotto');
-    const modalAbout = document.getElementById('modalAbout');
-    const modalAcademic = document.getElementById('modalAcademic');
-    const modalExperience = document.getElementById('modalExperience');
-    const modalPriorities = document.getElementById('modalPriorities');
-    const modalVisionSection = document.getElementById('modalVisionSection');
-    const modalVision = document.getElementById('modalVision');
+    const modalAchievementsSection = document.getElementById('modalAchievementsSection');
+    const modalAchievements = document.getElementById('modalAchievements');
+    const modalManifesto = document.getElementById('modalManifesto');
 
     modalImage.src = candidate.image;
-    modalImage.alt = `${candidate.name} - ${candidate.position}, ${candidate.team || 'Team Unity'}`;
+    modalImage.alt = `${candidate.name} - ${candidate.position}`;
     modalName.textContent = candidate.name;
     modalPosition.textContent = candidate.position;
-    modalTeam.textContent = candidate.team || 'Team Unity';
-    modalMotto.textContent = candidate.motto || '';
-    modalAbout.textContent = candidate.about;
-    modalAcademic.textContent = candidate.academic;
-    modalExperience.textContent = candidate.experience;
-    modalPriorities.textContent = candidate.priorities;
 
-    if (candidate.vision && candidate.vision.length > 0) {
-        modalVisionSection.hidden = false;
-        modalVision.innerHTML = candidate.vision.map(item => `
-            <div class="modal__vision-item">
-                <span class="modal__vision-number">${item.number}</span>
-                <div class="modal__vision-content">
-                    <h4 class="modal__vision-title">${item.title}</h4>
-                    <p class="modal__vision-desc">${item.description}</p>
-                </div>
-            </div>
-        `).join('');
+    if (candidate.achievements && candidate.achievements.length > 0) {
+        modalAchievementsSection.hidden = false;
+        modalAchievements.innerHTML = candidate.achievements.map(item => `<li>${item}</li>`).join('');
     } else {
-        modalVisionSection.hidden = true;
-        modalVision.innerHTML = '';
+        modalAchievementsSection.hidden = true;
+        modalAchievements.innerHTML = '';
     }
+
+    modalManifesto.innerHTML = candidate.manifesto.map(item => `<li>${item}</li>`).join('');
 
     modal.hidden = false;
     document.body.style.overflow = 'hidden';

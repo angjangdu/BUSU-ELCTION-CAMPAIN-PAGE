@@ -1405,6 +1405,34 @@ ul {
     line-height: 1.7;
 }
 
+.modal__achievements-list,
+.modal__manifesto-list {
+    margin: 0;
+    padding-left: var(--space-xl);
+    line-height: 1.8;
+}
+
+.modal__achievements-list li,
+.modal__manifesto-list li {
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-sm);
+    padding-left: var(--space-xs);
+}
+
+.modal__achievements-list li::marker,
+.modal__manifesto-list li::marker {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .modal__achievements-list,
+    .modal__manifesto-list {
+        padding-left: var(--space-lg);
+    }
+}
+
 .lightbox {
     position: fixed;
     inset: 0;
