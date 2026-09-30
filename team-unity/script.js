@@ -280,7 +280,6 @@ const updates = [
 const galleryImages = {
     campaign: [
         { src: 'images/gallery/campaign1.jpg', alt: 'Campaign event', caption: 'Campaign Rally' },
-        { src: 'images/gallery/campaign2.jpg', alt: 'Team meeting', caption: 'Team Strategy Session' },
         { src: 'images/gallery/campaign3.jpg', alt: 'Student interaction', caption: 'Student Outreach' },
         { src: 'images/gallery/campaign4.jpg', alt: 'Campaign poster', caption: 'Campaign Materials' }
     ],
